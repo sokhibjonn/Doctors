@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <div class="container-fluid fixed-top">
+<div class="container-fluid">
+  <p style="width: 100%; text-align: center; background-color: #00302F;color: white;height: 31px;font-size: 11px;">Our building is currently under renovation. We will be open to the public soon!</p>
+</div>
+  </div>   -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg foo">
+    <div style="width: 90%;" class="container-fluid ">
+      <a style="width: 80%;" class="navbar-brand " href="#"><svg class="masthead__logo emlogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 43" height="50">
+        <g id="Elevate" class="emlogo__elevate">
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M.59,20A.57.57,0,0,1,0,19.34V8a.59.59,0,0,1,.59-.63H11.77A.58.58,0,0,1,12.4,8v.85a.58.58,0,0,1-.63.63H2.29v3.06H9.08a.58.58,0,0,1,.62.63V14a.58.58,0,0,1-.62.62H2.29V17.9h9.48a.58.58,0,0,1,.63.62v.85a.6.6,0,0,1-.63.63H.59Z" data-svg-origin="6.197556824423373 13.684210300445557" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M24.54,20a.57.57,0,0,1-.59-.62V8a.59.59,0,0,1,.59-.63h1A.58.58,0,0,1,26.2,8V17.9h9.22a.58.58,0,0,1,.63.62v.85a.58.58,0,0,1-.63.63H24.54Z" data-svg-origin="30.000067710876465 13.683221340179443" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M78.19,20a.81.81,0,0,1-.77-.44L71.59,8.23a.76.76,0,0,1-.11-.37A.51.51,0,0,1,72,7.34h1.14a.74.74,0,0,1,.78.45l4.94,9.89,5-9.89a.74.74,0,0,1,.78-.45h1.14a.5.5,0,0,1,.56.52.89.89,0,0,1-.11.37L80.41,19.52a.79.79,0,0,1-.78.44Z" data-svg-origin="78.91022872924805 13.6675705909729" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M98.52,20a.49.49,0,0,1-.55-.51.89.89,0,0,1,.11-.37l5.83-11.29a.76.76,0,0,1,.78-.45h1.47a.84.84,0,0,1,.78.45l5.86,11.29a.69.69,0,0,1,.08.37.5.5,0,0,1-.56.51h-1.14a.76.76,0,0,1-.77-.44l-1.3-2.58h-7.3l-1.29,2.58a.72.72,0,0,1-.78.44Zm4.28-5.13H108l-2.62-5.24Z" data-svg-origin="105.4254379272461 13.692130088806152" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M130.52,20a.57.57,0,0,1-.59-.62V9.41h-5.35a.57.57,0,0,1-.63-.63V7.93a.6.6,0,0,1,.63-.62h13a.57.57,0,0,1,.62.62v.85a.58.58,0,0,1-.62.63h-5.32v9.93a.59.59,0,0,1-.62.62Z" data-svg-origin="131.0744400024414 13.65401029586792" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M150.37,20a.57.57,0,0,1-.59-.62V8a.59.59,0,0,1,.59-.63h11.18a.58.58,0,0,1,.63.63v.85a.58.58,0,0,1-.63.63h-9.48v3.06h6.79a.58.58,0,0,1,.62.63V14a.58.58,0,0,1-.62.62h-6.79V17.9h9.48a.58.58,0,0,1,.63.62v.85a.6.6,0,0,1-.63.63H150.37Z" data-svg-origin="155.9800567626953 13.684210777282715" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path id="E" class="emlogo__path emlogo__e" fill="currentColor" d="M48.19,12.62A.57.57,0,0,1,47.6,12V.63A.59.59,0,0,1,48.19,0H59.34A.58.58,0,0,1,60,.63v.85a.58.58,0,0,1-.62.62H49.85V5.17h6.79a.58.58,0,0,1,.63.62v.85a.58.58,0,0,1-.63.63H49.85v3.28h9.49a.58.58,0,0,1,.62.63V12a.6.6,0,0,1-.62.63H48.19Z" data-svg-origin="53.80023193359375 6.31221657898277" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px;"></path>
+        </g>
+        <g id="Medical" class="emlogo__medical">
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M73.51,42.62a.57.57,0,0,1-.59-.63V30.63a.59.59,0,0,1,.59-.63H84.69a.58.58,0,0,1,.62.63v.85a.57.57,0,0,1-.62.62H75.2v3.07H82a.58.58,0,0,1,.63.62v.85a.58.58,0,0,1-.63.63H75.2v3.28h9.49a.58.58,0,0,1,.62.63V42a.6.6,0,0,1-.62.63H73.51Z" data-svg-origin="79.11460876464844 36.31440734863281" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M97.31,42.62a.6.6,0,0,1-.63-.63V30.59a.57.57,0,0,1,.63-.59H104c4.24,0,6.71,2.58,6.71,6.2,0,4.24-2.84,6.42-6.71,6.42ZM99,40.55h5a4,4,0,0,0,4.39-4.31A4,4,0,0,0,104,32.07H99Z" data-svg-origin="103.69460678100586 36.3087854385376" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M122.8,42.62a.58.58,0,0,1-.59-.63V30.63a.59.59,0,0,1,.59-.63h1a.58.58,0,0,1,.62.63V42a.6.6,0,0,1-.62.63Z" data-svg-origin="123.3150634765625 36.314409255981445" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M135.94,36.31c0-3.76,3.17-6.53,7.27-6.53a8.18,8.18,0,0,1,6.27,2.73,1.08,1.08,0,0,1,.34.74,1.2,1.2,0,0,1-.56.88l-.33.3a.62.62,0,0,1-.37.15.6.6,0,0,1-.48-.26,6.21,6.21,0,0,0-4.83-2.4c-2.81,0-4.91,1.92-4.91,4.43a4.6,4.6,0,0,0,4.91,4.42,6.19,6.19,0,0,0,4.83-2.39.58.58,0,0,1,.48-.26.5.5,0,0,1,.37.15l.33.29c.33.3.56.55.56.89a1.28,1.28,0,0,1-.34.73,8.15,8.15,0,0,1-6.27,2.74C139.15,42.88,135.94,40.11,135.94,36.31Z" data-svg-origin="142.8800048828125 36.35005760192871" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M161.81,42.62a.5.5,0,0,1-.56-.52.79.79,0,0,1,.12-.37l5.86-11.29A.77.77,0,0,1,168,30h1.47a.85.85,0,0,1,.78.44l5.87,11.29a.77.77,0,0,1,.07.37.5.5,0,0,1-.55.52H174.5a.76.76,0,0,1-.77-.44l-1.29-2.59h-7.31l-1.29,2.59a.72.72,0,0,1-.78.44Zm4.28-5.09h5.24l-2.62-5.24Z" data-svg-origin="168.7204132080078 36.31273937225342" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <path class="emlogo__path emlogo__path--hide-collapsed" fill="currentColor" d="M188.49,42.62a.57.57,0,0,1-.59-.63V30.63a.59.59,0,0,1,.59-.63h1a.58.58,0,0,1,.63.63v9.92h9.22a.58.58,0,0,1,.63.63V42a.58.58,0,0,1-.63.63H188.49Z" data-svg-origin="193.9345932006836 36.3149995803833" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+            <g id="M" class="emlogo__path emlogo__m" data-svg-origin="53.77140998840332 36.314764976501465" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px;">
+                <path class="emlogo__path" fill="currentColor" d="M52.25,35.54a.24.24,0,0,0,0-.23l-3.76-4.87a1,1,0,0,0-.85-.4h-.92a.57.57,0,0,0-.59.62V42a.59.59,0,0,0,.59.63h1a.59.59,0,0,0,.63-.63V34l2.39,3.1a.18.18,0,0,0,.3,0Z"></path>
+                <path class="emlogo__path" fill="currentColor" d="M60.85,30h-.92a1,1,0,0,0-.85.41L52.44,39a.22.22,0,0,0,0,.22l.66.85a.82.82,0,0,0,.66.37.74.74,0,0,0,.67-.37l4.72-6.13V42a.6.6,0,0,0,.63.63h1A.57.57,0,0,0,61.4,42V30.63A.51.51,0,0,0,60.85,30Z"></path>
+            </g>
+        </g>
+        <path id="bullet" class="emlogo__path emlogo__bullet" fill="currentColor" d="M55.2,21.25,54,20.55a.42.42,0,0,0-.41,0l-1.22.7a.42.42,0,0,0-.22.37V23a.39.39,0,0,0,.22.36l1.22.71a.43.43,0,0,0,.41,0l1.21-.71a.39.39,0,0,0,.22-.36V21.62A.38.38,0,0,0,55.2,21.25Z" data-svg-origin="53.79022407531738 22.30929183959961" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px;"></path>
+        
+        
+        
+        <path id="ani-path--medical" class="emlogo__ani-path--medical" d="M53.78,36.35c9.09,0,17.38-5.87,17.38-14" opacity="0"></path>
+        <path id="ani-path--elevate" class="emlogo__ani-path--elevate" d="M53.78,6.33a16,16,0,0,0-16,16" opacity="0"></path>
+    </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">About</a>
+          <a class="nav-link" href="index2.html">Services</a>
+          <a class="nav-link" href="index3.html">Contact</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+<div style="width: 60%;" class="container">
+<p style="margin-top: 20%;font-size: 32px;" id="ourmis">Our Mission</p>
+</div>
+<div  style="margin-top: 5%;width: 60%;" class="container">
+    <div class="row">
+      <div style="margin-left: -28%;position: sticky;" class="col fixed-top">
+        <nav  style="margin-left: -1%;margin-top: 3%;" class="nav flex-column fix">
+          <a style="color: #00302F;" class="nav-link active" aria-current="page" href="#ourmis">Our Mission</a>
+          <a style="color: #00302F;" class="nav-link" href="#ourteam">Our Team</a>
+          <a style="color: #00302F;" class="nav-link" href="#careers">Careers</a>
+
+        </nav> 
+      </div>
+      <div style=" font-size: 25px; margin-left: -23%;" class="col-lg">
+        Empowering you to live your healthiest life through comprehensive,
+        <br> personalised care.
+      </div>
+      <div  class="col my1st">
+        We invite you to discover an experience that places you—the patient—at the centre.
+         From our easy-to-navigate online booking system to car parking right outside the front
+         door, we’ve made things fuss-free. With all your primary healthcare and general practice
+        services in one place, we help you get the care you need as seamlessly as possible. <br><br>
+
+        Our Burwood-based practice is a family-friendly environment, thoughtfully designed to
+         promote a sense of calm. This safe and welcoming atmosphere extends to our
+         judgement-free treatment rooms, where we want you to feel comfortable talking with a
+         supportive GP. Our doctors have the latest medical knowledge and take the time to talk
+         you through your options. We want you to feel empowered with the information you need
+         to make the best healthcare decisions for you. <br><br>
+        
+        We’re here when you’re sick – and also when you’re not. With our proactive and
+         preventative approach to physical and mental health, you can form a treatment plan and
+         goals with your GP, to help motivate you to get healthier and live longer. We believe that’s
+         the way healthcare should be.
+      </div>
+    </div>
+  </div><br><br><br><br>
+  <div style="width: 60%;" class="container">
+  <hr style="border: 2px solid black;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <div style="font-size: 25px;"><img style="width: 100%;height: 250px;" src="https://elevatemedical.com.au/app/uploads/2022/02/Elevate-collaborate-final.png" alt=""></div>
+      </div>
+      <div style="font-size: 20px; margin-top: 5%;" class="col">
+        Collaborative
+        <br><p class="my1st" style="margin-top: 4%;">We work as a collaborative team of doctors and allied health practitioners in partnership with you towards the best long-term health outcomes for our community – Burwood, Glen Iris, Camberwell and surrounds.</p> 
+      </div>
+      
+    </div>
+  </div>
+  <br><br>
+  <hr style="border: 2px solid black;">
+  <div class="container">
+    <div class="row">
+     
+      <div style="margin-top: 12%;font-size: 20px;" class="col-lg">
+        Progressive
+        <br><p class="my1st" style="margin-top: 4%;">We’re committed to learning, growing and developing our team to deliver you exceptional, forward-thinking service and comprehensive preventative health care.</p>
+      </div>
+      <div class="col">
+        <div><img style="width: 100%;height: 250px;margin-top: 10%;" src="https://elevatemedical.com.au/app/uploads/2022/02/Elevate-progress-final.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <hr style="border: 2px solid black;">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+       <div><img style="width: 100%;height: 250px;margin-top: 10%;" src="https://elevatemedical.com.au/app/uploads/2022/02/Elevate-empowering-final.png" alt=""></div>
+      </div>
+      <div  style="margin-top: 12%;font-size: 20px;" class="col-lg">
+        Empowering
+        <br><p class="my1st" style=" margin-top: 4%;">Our wide range of on-site medical and allied health services empower you with the person-centred support, care and expertise you need to live your healthiest life.</p>
+      </div>
+      
+    </div>
+  </div>
+  <br><br>
+  <hr style="border: 2px solid black;">
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="ourteams" >
+    <div style="width: 60%;"class="container">
+        <p style="margin-top: 20%;font-size: 35px;"  id="ourteam">Our Team</p>
+        <div style="margin-top: 10%;" class="container ">
+            <div class="row">
+              <div style="font-size: 29px;" class="col-lg">
+                At Elevate, we’re a GP owned practice with a difference.
+              </div>
+              <div  class="col my1st">
+                While our Burwood clinic is new to the area, our expert team hails from a successful practice in bayside Melbourne. We’re proud to bring our learnings and experience from Bluff Road Medical to offer the same quality service in a new innovative health hub. We want you to experience a shared, collaborative patient journey. We’re committed to working as a team of doctors and allied health practitioners in partnership with each other – and with you.
+              </div>
+              
+            </div>
+          </div>
+          <br><br><br>
+          <div class="container">
+            <div class="row">
+              <div style="font-size: 25px;" class="col-lg">
+                We believe in
+                <br><p style="font-size: 14px;font-style: oblique;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                  </svg>  Continuing to learn, grow and develop our team <br>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                  </svg> Delivering consistent, high quality, personalised service <br>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                  </svg> Caring for both our patients and the broader community <br>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                  </svg> Being accountable and working with integrity. </p>
+                   <p class="my1st"> These things are important to us. It’s how we support the health and wellbeing of the local Burwood and broader Boroondara community. If Elevate sounds like the kind of medical practice you’ve been looking for, we’d love to be your trusted local family doctor. You can meet our exceptional team of doctors below.</p>
+              </div>
+              <div class="col ">
+                <div><img class="hex2"  src="https://elevatemedical.com.au/app/uploads/2022/01/EM_stock-image_1B.jpg" alt=""></div>
+              </div>
+             
+            </div>
+          </div>
+          <br><br><br><br><br>
+
+          <p style="font-size: 25px;">Meet our team</p>
+          <hr style="border: 1px solid black;margin-top: 3%;">
+          <span class="mimi" style="padding: 5px;  font-family: Verdana, Arial, Helvetica, sans-serif;" id="doc" id="flip2">Dr Peter Cheng
+          </span><span id="spanplus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+            </svg></span>
+            
+            
+           <div class="container">
+                <div class="row" id="col">
+                  <div class="col my1st mt-3">
+                <p>General Practitioner <br>
+
+                    BPharm, MBBS (Hons), FRACGP <br>
+                    
+                    Interests <br>
+                    
+                    Skin Cancer and Surgery,<br>
+                     Dermatology and Paediatrics</p>
+                     <div>
+                    <div> <img class="hex3"  src="https://elevatemedical.com.au/app/uploads/2022/05/Peter-Profile.png" alt=""> </div>
+              </div>
+              
+              <div class="col ">
+                <p class="my1st mt-3">
+                  Peter completed his Medical Degree with Honours from Monash University in 2013. He spent many years honing his surgical acumen as a surgical trainee at the Royal Melbourne Hospital prior to transitioning to work as a GP and an Accredited Skin Doctor endorsed by the Skin Cancer College Australasia. <br><br>
+
+                    Peter is passionate about patient advocacy. His clinical journey, especially in his work prior as a pharmacist, has allowed him to understand that for most people, any form of medical visit can be daunting and anxiety-provoking. He has seen it from both sides of a patient’s medical journey. He eliminates all the medical jargon, and strives to make the experience smooth, and as pleasant as possible. He takes privilege in looking after those who trust him with their health and is very proud of the medicine he practices. He carries a motto of attaining the best possible outcome for his patients. <br><br>
+                    
+                    Peter’s clinical expertise extends to a wide array of medical and dermatological conditions. As a practitioner, his focus and goals are attaining holistic, pragmatic solutions to optimise long-term patient outcomes. He loves all facets of Family Medicine with special interests in Chronic Disease Management, Children’s Health, Dermatology, and Skin Cancer Medicine. <br><br>
+                    
+                    He is able to provide advice and treatments on a multiple array of skin conditions – including expert management on skin cancers – both Melanoma and Non – Melanoma Skin cancers. <br><br>
+                    
+                    This extends itself to simple non-surgical treatments, straightforward excisions to a wide array of more complex surgical work including flaps and grafts. <br><br>
+                    
+                    Peter continues to keep up-to-date, and strives to consistently improve learning the latest techniques and adopting the most up-to-date research to achieve the best care for his patients. He is currently on the pathway to achieving Fellowship with the Skin Cancer College of Australasia. <br><br>
+                    
+                    When not working, Peter is a “watch geek” at heart. He enjoys traveling, street photography, tennis, and spending time with his young family at home.</p><br><br><br>
+            </p>
+                  </div>
+              
+            </div>
+          </div>
+        </div>
+          <hr style="border: 1px solid black;margin-top: 3%;">
+          <span class="mimi" style="padding: 5px;  font-family: Verdana, Arial, Helvetica, sans-serif;" id="doc2" id="flip2">Dr Joan San
+          </span><span id="spanplus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+            </svg></span>
+
+          <div class="container">
+            <div class="row" id="col2">
+              <div class="col-lg my1st mt-3">
+                <p>General Practitioner <br>
+
+                  MBBS, FRACGP, DRANZCOG <br>
+                  
+                  Interests <br>
+                  
+                  Travel Medicine, Women’s Health, Paediatrics, Skin Cancer and Minor Surgery</p>
+                  <div>
+                    <div> <img class="hex4"  src="https://elevatemedical.com.au/app/uploads/2022/05/Joan-Profile.png" alt=""> </div>
+              </div>
+                    
+              </div>
+              <div class="col">
+                <p class="my1st mt-3">
+                  Joan graduated from the University of Melbourne in 1999 and undertook her residency years at St Vincent’s Hospital Melbourne. She then moved to Northeast Victoria to obtain her General Practice Registration (Rural Pathway) and Diploma in Obstetrics and Gynaecology. During that time, she worked as a rural GP obstetrician and provided services to the nearby ski medical centre, local district hospital and general practice. <br><br>
+                  
+                  She returned to Melbourne and joined the team at Bluff Road in 2007. Since then, she has completed an Expert Certificate in Dermoscopy (skin cancer diagnosis) and currently works regularly as a surgical assistant at Cabrini Hospital. <br><br>
+                  
+                  Joan enjoys the breadth and diversity of patients and challenges encountered in primary healthcare as well as educating and empowering oneself to respect their own health and well-being. She wishes she could travel and ski more but for now, enjoys spending time with her family and friends, the Arts and boxing.
+                  
+                  
+                  </p>
+              </div><br><br>
+
+            </div>
+          </div> 
+          <hr style="border: 1px solid black;margin-top: 3%;">
+          <span class="mimi" style="padding: 5px;  font-family: Verdana, Arial, Helvetica, sans-serif;" id="doc3" id="flip2">Dr Jason Rajakulendran 
+          </span><span id="spanplus"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+            </svg></span>
+
+          <div class="container">
+            <div class="row" id="col3">
+              <div class="col-lg mt-5 my1st">
+                <p>General Practitioner & Travel Doctor <br>
+
+                  MBBS, MPH, FRACGP, DCH, CTH© <br>
+                  
+                  Interests <br>
+                  
+                  Paediatrics, men’s health, travel medicine, psychological and preventative health</p>
+                  <div>
+                    <div> <img class="hex5"  src="https://elevatemedical.com.au/app/uploads/2022/05/Jason-profile.png" alt=""> </div>
+              </div>
+              </div>
+              <div class="col mt-5">
+                <p class="my1st">
+                  Jason has a medical degree from Monash University and gained his hospital experience at Monash Health, before moving into General Practice. He worked in Albury/Wodonga and in the Northern Territory before returning to Melbourne as a practice principal. Jason has been a Registrar Alumni Coordinator and has spent many years as a GP Clinical Training Supervisor. He also has a Diploma of Child Health from Sydney University and a Masters of Public Health (International Health) from Monash University. <br><br>
+
+                  A keen traveller, Jason is a certified member of the International Society of Travel Medicine (ISTM), Australasian College of Tropical Medicine and part of the national Travel Medicine Alliance (TMA) network. He coordinates travel medicine at both Elevate Medical and Bluff Road Medical. <br><br>
+
+                  Jason has a keen interest in global travel, spending time with friends and family, AFL (Hawks, if you’re asking!), cricket, rugby union, films and music
+                  
+                  </p> <br><br><br><br><br><br><br><br>
+                                    
+              </div>
+              
+            </div>
+          </div>
+          </div>
+          </div> 
+          <div id="oueteamms">
+        <div style="width: 60%;" class="container">
+           <hr style="border: 1px solid black;margin-top: 3%;">
+           <p style="margin-top: 45%;font-size: 35px;" id="careers">Careers</p>
+           <div class="container">
+            <div class="row">
+              <div class="col-lg mt-5">
+                <p style="font-size: 27px;">Are you a motivated professional committed to excellence and ongoing development? Join our patient-centred team.</p>
+              </div>
+              <div class="col mt-5">
+                <p class="my1st">
+                  If you’re looking for a progressive work environment in which to thrive, we offer a supportive space to build your medical career among like-minded peers. General practice can be a lonely place to work. We promote collegiality and fun in our innovative practice, as well as the opportunity for upskilling. <br><br>
+                  
+                  We believe the primary care of the future minimises the fragmentation of patient care. The Elevate hub, including skin cancer provision and mental health services, offers team-based care to better serve our patients. <br><br>
+                  
+                  If you believe Elevate would be a great next step in your career, we’d love to hear from you. Let’s break down fragmented care together.</p>
+              </div>
+             
+            </div><br><br><br><br><br>  
+              </div>
+            </div>
+            <div style="width: 60%;" class="container">
+              <!-- <div class="container"> -->
+                <div class="row">
+                  <div class="col">
+                      <div class="de" id="hexagon">
+                          <p style="position:relative; top:80px;text-align: center;" >INTEGRITY</p>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="de" id="hexagon"> 
+                          <p style="position:relative; top:80px;text-align: center;" >COLLABORATION
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="de" id="hexagon">
+                          <p style="position:relative; top:80px;text-align: center;" >EXCELLENCE</p>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="de" id="hexagon">
+                          <p style="position:relative; top:80px;text-align: center;" >COMMUNITY</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- </div> -->
+           
+              <p style="margin-top: 10%;font-size: 30px;" id="careers">Apply today</p><br>
+              <div  class="row">
+                <div class="col ">
+                  <input style="background-color: #B2D1CC;" type="text" class="form-control" placeholder="First name" >
+                </div>
+                <div class="col">
+                  <input style="background-color: #B2D1CC;" type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div><br><br>
+              <div class="row">
+                <div class="col">
+                  <input style="background-color: #B2D1CC;" type="text" class="form-control" placeholder="Email Address" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input style="background-color: #B2D1CC;" type="text" class="form-control" placeholder="Phone Number" aria-label="Last name">
+                </div>
+              </div><br><br>
+              <div class="row">
+                <div class="col">
+              <select style="width: 100%;height: 60px;background-color: #B2D1CC;" class="form-select" aria-label="Default select example">
+                <option  selected>General Practitioner</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <!-- <div class="col">Attach Resume *
+               <div class="mb-3"> <br>
+                <input style="background-color:#B2D1CC ;" type="file" class="form-control" aria-label="file example" required>
+                <div class="invalid-feedback">Example invalid form file feedback</div>
+              </div>
+            </div> -->
+          </div><br>
+          <div class="mb-3">
+            <label style="font-size: 20px; background-color: #B2D1CC;" for="exampleFormControlTextarea1" class="form-label">Tell us about yourself *</label>
+            <textarea style="height: 200px;background-color: #B2D1CC;border: 1px solid black;" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div><br>
+          <p class="mb-1">CAPTCHA</p>
+          <div><img style="width: 30%;" src="https://support.zephr.com/wp-content/uploads/2019/09/Screen-Shot-2019-09-10-at-10.46.48-AM.png" alt=""></div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button style="background-color: #00302F;width: 25%;height: 45px;font-weight: 650;" class="btn text-light  me-md-2" type="button">APPLY NOW</button>
+
+          </div>  
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer style="background-color: #00302F;height: 400px;" class="mt-2">
+  <div>
+    <p style="font-size: 30px;padding-top: 5%;" class="text-center text-light ">Explore our services
+    <p style="font-size: 13px;color: white;text-align: center;" class="my1st">Our patients have access to all primary healthcare and
+      <br> general practice services in one place. Learn more about the
+      <br> services we have available at Elevate Medical.</p></p><br>
+     <a href="index2.html"> <p  style="font-size: 15px;" class="text-center text-light" >OUR SERVICES </a>
+ </p>
+
+  </div>
+</footer><br><br>
+<div style="width: 70%;" class="container">
+  <div class="row">
+    <div class="col">
+      <svg class="footer__logo" width="63" height="71" viewBox="0 0 63 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M58.9855 14.7826L35.5175 1.08882C34.2973 0.375564 32.9126 0 31.503 0C30.0934 0 28.7087 0.375564 27.4885 1.08882L4.0145 14.7826C2.79476 15.4956 1.78187 16.5199 1.0773 17.7531C0.372734 18.9862 0.00122626 20.3847 0 21.8086L0 49.19C0.000172917 50.6149 0.371181 52.0147 1.0758 53.249C1.78043 54.4833 2.79388 55.5086 4.0145 56.2221L27.4885 69.9159C28.7097 70.6262 30.094 71 31.503 71C32.912 71 34.2963 70.6262 35.5175 69.9159L58.9855 56.2221C60.2073 55.51 61.2218 54.485 61.9266 53.2504C62.6314 52.0158 63.0017 50.6153 63 49.19V21.8086C63.0006 20.3843 62.6299 18.9851 61.9251 17.7516C61.2203 16.5182 60.2065 15.4942 58.9855 14.7826V14.7826ZM46.966 23.2842C46.9832 23.4981 46.9534 23.7131 46.8788 23.914C46.8042 24.1148 46.6867 24.2966 46.5346 24.4462C46.3824 24.5959 46.1995 24.7098 45.9988 24.7797C45.7981 24.8497 45.5845 24.874 45.3735 24.851H21.7432V32.6057H38.6305C38.8388 32.5871 39.0485 32.6149 39.245 32.6871C39.4414 32.7593 39.6198 32.8741 39.7677 33.0234C39.9155 33.1728 40.0291 33.3531 40.1005 33.5516C40.1719 33.7501 40.1994 33.962 40.1811 34.1724V36.3039C40.2005 36.5146 40.1738 36.727 40.1027 36.926C40.0317 37.125 39.9181 37.3058 39.77 37.4554C39.622 37.605 39.4431 37.7197 39.2462 37.7915C39.0492 37.8633 38.839 37.8903 38.6305 37.8707H21.7432V46.1537H45.3494C45.5598 46.1339 45.772 46.1605 45.9713 46.2316C46.1705 46.3028 46.3521 46.4167 46.5035 46.5657C46.655 46.7147 46.7726 46.895 46.8483 47.0944C46.924 47.2938 46.956 47.5074 46.942 47.7205V49.7973C46.957 50.0106 46.9257 50.2247 46.8504 50.4245C46.7751 50.6244 46.6575 50.8052 46.5058 50.9544C46.3542 51.1036 46.1721 51.2175 45.9724 51.2883C45.7727 51.359 45.5601 51.3849 45.3494 51.364H17.5664C17.3618 51.3751 17.1573 51.3418 16.9664 51.2664C16.7756 51.191 16.603 51.0752 16.4601 50.9268C16.3172 50.7784 16.2074 50.6008 16.1381 50.406C16.0687 50.2112 16.0414 50.0036 16.058 49.7973V21.2074C16.0414 21.001 16.0687 20.7935 16.1381 20.5987C16.2074 20.4039 16.3172 20.2263 16.4601 20.0779C16.603 19.9295 16.7756 19.8137 16.9664 19.7383C17.1573 19.6629 17.3618 19.6296 17.5664 19.6407H45.3494C45.5601 19.6198 45.7727 19.6456 45.9724 19.7164C46.1721 19.7871 46.3542 19.9011 46.5058 20.0503C46.6575 20.1995 46.7751 20.3803 46.8504 20.5802C46.9257 20.78 46.957 20.9941 46.942 21.2074L46.966 23.2842Z"></path>
+      </svg>
+    </div>
+    <div style="width: 60%;" class="container">
+    <div style="font-size: 5px;" class="col-lg my1st">
+      Call Us :  
+Currently unavailable <br>
+Email Us :
+admin@elevatemedical.com.au <br>
+Open :
+Monday to Friday: 9.00am – 6.00pm <br>
+Closed weekends
+    </div>
+    </div>
+    <div  style="font-size: 5px;" class="col my1st">
+      Location :  305 Warrigal Road,Burwood 3125 <br>
+      Directions <hr> 
+      
+      Socials :  Facebook  Instagram <br>
+      WeChat 
+      小红书 <hr>
+    </div>
+  </div>
+</div> <br>
+<hr style="border: 1px solid black;">
+<div style="width: 90%;" class="container">
+  <div class="row">
+    <div class="col">
+      <p style="font-size: 9px;">Privacy Policy</p>
+    </div>
+    <div style="width: 60%;" class="container">
+    <div style="font-style: italic;" class="col">
+      <p style="font-size: 9px;"> Terms & Conditions </p>
+    </div>
+    </div>
+    <div  style="font-style: italic;font-size: 15px;" class="col">
+     <p style="font-size: 9px;">Designed by Louise Walker Design. Built by Bone</p>
+    </div>
+  </div>
+</div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="java.js"></script>
+</body>
+</html>
